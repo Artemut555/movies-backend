@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zn0g_#y!zw9@dooyy-foc+*#x^cbs-8-+-*w06%85@$bdfe*l1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://keen-knuth-aa6889.netlify.app']
 
 
 # Application definition
@@ -110,6 +110,10 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'https://keen-knuth-aa6889.netlify.app',
 )
+
+# ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
